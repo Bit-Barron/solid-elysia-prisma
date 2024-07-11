@@ -1,6 +1,6 @@
-import prisma from "../../lib/db";
-import { encrypt } from "../../lib/jwt";
-import { serverEnv } from "../../utils/env/server";
+import prisma from "~/lib/db";
+import { encrypt } from '~/lib/jwt'
+import { serverEnv } from "~/utils/env/server";
 import { Elysia, ParseError } from "elysia";
 import { authUser } from "./typebox";
 
