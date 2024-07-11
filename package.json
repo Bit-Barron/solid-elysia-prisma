@@ -16,6 +16,7 @@
     "@solidjs/start": "^1.0.4",
     "@tanstack/solid-query": "^5.51.2",
     "elysia": "^1.0.27",
+    "jose": "^5.6.3",
     "solid-js": "^1.8.18",
     "vinxi": "^0.3.14"
   },
