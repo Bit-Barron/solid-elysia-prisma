@@ -1,5 +1,4 @@
-import { Component, JSX } from "solid-js";
-import { rpc } from "~/lib/rpc";
+import { JSX } from "solid-js";
 import getQueryClient from "~/lib/solid-query";
 
 interface LayoutProps {

@@ -3,6 +3,7 @@ import { Router } from "@solidjs/router";
 import { FileRoutes } from "@solidjs/start/router";
 import { Suspense } from "solid-js";
 import "./app.css";
+import { QueryProvider } from "./components/providers/query-provider";
 
 export default function App() {
   return (
@@ -12,7 +13,9 @@ export default function App() {
           <Title>SolidStart - Basic</Title>
           <a href="/auth/login">Login</a>
           <a href="/auth/register">Register</a>
-          <Suspense>{props.children}</Suspense>
+          <Suspense>
+            <QueryProvider>{props.children}</QueryProvider>
+          </Suspense>
         </MetaProvider>
       )}
     >
