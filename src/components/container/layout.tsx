@@ -10,7 +10,7 @@ const AuthLayout = async (props: LayoutProps) => {
 
   return (
     <div>
-      <div>sasd</div>
+      <div>{props.children}</div>
     </div>
   );
 };
